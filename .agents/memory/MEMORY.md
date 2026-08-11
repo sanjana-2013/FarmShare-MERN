@@ -1,0 +1,1 @@
+- [MongoDB Atlas setup](mongodb-atlas.md) — FarmShare uses secure MONGODB_URI and JWT_SECRET environment values because no managed MongoDB integration is available.
