@@ -25,7 +25,8 @@ function Router() {
         <Route path="/" component={Landing} />
         <Route path="/login"><AuthPage mode="login" /></Route>
         <Route path="/signup"><AuthPage mode="signup" /></Route>
-        <Route path="/dashboard" component={Dashboard} />
+        <Route path="/dashboard"><Dashboard /></Route>
+        <Route path="/marketplace"><Dashboard page="marketplace" /></Route>
         <Route component={NotFound} />
       </Switch>
     </RoutedErrorBoundary>
